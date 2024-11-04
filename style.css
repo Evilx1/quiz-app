@@ -1,0 +1,118 @@
+/* note do styling as you want -- use ui verse */
+*{
+
+    padding: 0;
+    margin: 0;
+}
+.homepage{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(109, 109, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quiz-box{
+    height: 70vh;
+    width: 50%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+h1{
+    height:10vh;
+}
+
+#question{
+    height:12vh;
+
+}
+
+.btn{
+    display: block;
+    margin-top: 10px;
+    height: 7vh;
+    width: 70%;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid rgb(168, 168, 168);
+    text-align: left;
+    padding: 10px;
+    cursor: pointer;
+    transition: all ease 0.4s;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.next{
+    height: 7vh;
+    width: 100%;
+    /* color: black; */
+    /* background-color: black; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* ui verse code */
+/* From Uiverse.io by vinodjangid07 */ 
+.button {
+    width: 120px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    cursor: pointer;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(223, 220, 220);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.137);
+  }
+  
+  .text {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(27, 27, 27);
+    color: white;
+  }
+  
+  .arrow path {
+    fill: rgb(19, 19, 19);
+  }
+  
+  .button:hover .arrow {
+    animation: slide-in-left 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  
+  @keyframes slide-in-left {
+    0% {
+      transform: translateX(-8px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+  
+  .button:active {
+    transform: scale(0.97);
+  }
+  /* ui verse code ends here */
+
+  .green{
+    background-color: rgba(46, 255, 46, 0.578);
+  }
+  .red{
+    background-color: rgba(248, 1, 1, 0.553);
+  }
